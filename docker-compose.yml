@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  amuse:
+    image: "amuse:latest"
+    volumes:
+      - /home/gijsv/working_directory:/root/working_directory
